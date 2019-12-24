@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 0;
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(245, 176, 152);
+  border-bottom: 5px solid;
+  border-color: darksalmon;
+}
+
+.h2-header {
+  display: inline;
+  font-size: 100px;
+  color: rgb(81, 203, 162);
+  text-shadow: -1px 0 rgb(24, 75, 66), 0 1px rgb(24, 75, 66), 1px 0 rgb(24, 75, 66), 0 -1px rgb(24, 75, 66);
+  margin-left: 40px;
+}
+
+.image-logo {
+  float: right;
+  display: inline;
+  width: 15vw;
+  height: 15vh;
+  margin-right: 20px;
+  margin-top: 10px;
+}
